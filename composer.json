@@ -1,0 +1,55 @@
+{
+    "name"        : "WCM/AstroFields/Examples/MetaBox",
+    "version"     : "0.1.0",
+    "description" : "MetaBox Extension Example for the AstroFields framework",
+    "keywords"    : [ "wordpress", "forms", "fields" ],
+    "type"        : "wordpress-plugin",
+    "homepage"    : "https://github.com/AstroFields/Comments",
+    "license"     : "MIT",
+    "authors"     : [
+        {
+            "name"  : "Kaiser Franz Josef",
+            "email" : "wecodemore@gmail.com"
+        }
+    ],
+    "support"     : {
+        "issues" : "https://github.com/AstroFields/Comments/issues"
+    },
+    "minimum-stability" : "dev",
+    "require"     : {
+        "php"                       : ">=5.3",
+        "composer/installers"       : "~1.0",
+        "WCM/AstroFields/Core"      : "*",
+        "WCM/AstroFields/MetaBox"   : "*",
+        "WCM/AstroFields/PostMeta"  : "*",
+        "WCM/AstroFields/Standards" : "*",
+        "WCM/AstroFields/Security"  : "*"
+    },
+    "repositories": [
+        {
+            "type" : "vcs",
+            "url"  : "https://github.com/AstroFields/Core"
+        },
+        {
+            "type" : "vcs",
+            "url"  : "https://github.com/AstroFields/MetaBox"
+        },
+        {
+            "type" : "vcs",
+            "url"  : "https://github.com/AstroFields/PostMeta"
+        },
+        {
+            "type" : "vcs",
+            "url"  : "https://github.com/AstroFields/Standards"
+        },
+        {
+            "type" : "vcs",
+            "url"  : "https://github.com/AstroFields/Security"
+        }
+    ],
+    "autoload"    : {
+        "psr-0" : {
+            "WCM\\AstroFields\\Examples\\MetaBox\\" : ""
+        }
+    }
+}
