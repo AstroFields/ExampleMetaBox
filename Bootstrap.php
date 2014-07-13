@@ -8,7 +8,7 @@ namespace WCM\AstroFields\Examples\MetaBox;
  */
 
 // Composer autoloader
-require_once plugin_dir_path( __FILE__ )."vendor/autoload.php";
+require_once __DIR__."/vendor/autoload.php";
 
 
 use WCM\AstroFields\Core\Mediators\Entity;
