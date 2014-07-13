@@ -15,12 +15,6 @@ use WCM\AstroFields\Core\Mediators\Entity;
 
 use WCM\AstroFields\Core\Commands\ViewCmd;
 
-use WCM\AstroFields\PublicForm\Commands\Form;
-use WCM\AstroFields\PublicForm\Receivers\Field;
-use WCM\AstroFields\PublicForm\Receivers\Label;
-use WCM\AstroFields\PublicForm\Templates\FormTmpl;
-use WCM\AstroFields\PublicForm\Templates\LabelTmpl;
-use WCM\AstroFields\PublicForm\Views\LabelView;
 use WCM\AstroFields\Security\Commands\SanitizeString;
 use WCM\AstroFields\Security\Commands\SanitizeMail;
 
@@ -32,23 +26,6 @@ use WCM\AstroFields\MetaBox\Templates\Table as MetaBoxTmpl;
 use WCM\AstroFields\PostMeta\Commands\SaveMeta;
 use WCM\AstroFields\PostMeta\Commands\DeleteMeta;
 use WCM\AstroFields\PostMeta\Receivers\PostMetaValue;
-
-use WCM\AstroFields\UserMeta\Commands\SaveMeta as SaveUserMeta;
-use WCM\AstroFields\UserMeta\Commands\DeleteMeta as DeleteUserMeta;
-use WCM\AstroFields\UserMeta\Receivers\UserMetaValue;
-use WCM\AstroFields\UserMeta\Templates\InputFieldTmpl as InputFieldTmplUser;
-
-use WCM\AstroFields\Settings\Commands\SettingsSection as SettingsSectionCmd;
-use WCM\AstroFields\Settings\Commands\DeleteOption;
-use WCM\AstroFields\Settings\Commands\SanitizeString as SanitzeOptionsString;
-use WCM\AstroFields\Settings\Receivers\OptionValue;
-use WCM\AstroFields\Settings\Templates\Table as SettingsTmpl;
-use WCM\AstroFields\Settings\Templates\InputSettingsTmpl;
-
-use WCM\AstroFields\PublicForm\Commands\ViewCmd as PublicFieldViewCmd;
-use WCM\AstroFields\PublicForm\Receivers\Field as PublicFieldProvider;
-
-use WCM\AstroFields\Comments\Commands\CommentViewCmd;
 
 use WCM\AstroFields\Standards\Templates\InputFieldTmpl;
 use WCM\AstroFields\Standards\Templates\PasswordFieldTmpl;
