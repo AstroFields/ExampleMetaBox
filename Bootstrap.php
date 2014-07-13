@@ -3,12 +3,13 @@
 namespace WCM\AstroFields\Examples\MetaBox;
 
 /**
- * Plugin Name: (WCM) AstroFields Comments Example
- * Description: Comment form fields example plugin
+ * Plugin Name: (WCM) AstroFields MetaBox Example
+ * Description: MetaBox example plugin
  */
 
 // Composer autoloader
-require_once __DIR__."/vendor/autoload.php";
+require_once plugin_dir_path( __FILE__ )."vendor/autoload.php";
+
 
 use WCM\AstroFields\Core\Mediators\Entity;
 

@@ -4,7 +4,7 @@
     "description" : "MetaBox Extension Example for the AstroFields framework",
     "keywords"    : [ "wordpress", "forms", "fields" ],
     "type"        : "wordpress-plugin",
-    "homepage"    : "https://github.com/AstroFields/Comments",
+    "homepage"    : "https://github.com/AstroFields/ExampleMetaBox",
     "license"     : "MIT",
     "authors"     : [
         {
@@ -13,7 +13,7 @@
         }
     ],
     "support"     : {
-        "issues" : "https://github.com/AstroFields/Comments/issues"
+        "issues" : "https://github.com/AstroFields/ExampleMetaBox/issues"
     },
     "minimum-stability" : "dev",
     "require"     : {
@@ -23,6 +23,7 @@
         "WCM/AstroFields/MetaBox"   : "*",
         "WCM/AstroFields/PostMeta"  : "*",
         "WCM/AstroFields/Standards" : "*",
+        "WCM/AstroFields/HTML5"     : "*",
         "WCM/AstroFields/Security"  : "*"
     },
     "repositories": [
@@ -44,11 +45,15 @@
         },
         {
             "type" : "vcs",
+            "url"  : "https://github.com/AstroFields/HTML5"
+        },
+        {
+            "type" : "vcs",
             "url"  : "https://github.com/AstroFields/Security"
         }
     ],
     "autoload"    : {
-        "psr-0" : {
+        "psr-4" : {
             "WCM\\AstroFields\\Examples\\MetaBox\\" : ""
         }
     }
