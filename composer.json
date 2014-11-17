@@ -1,5 +1,5 @@
 {
-    "name"        : "WCM/AstroFields/Examples/MetaBox",
+    "name"        : "wecodemore/astroexamples-metabox",
     "version"     : "0.1.0",
     "description" : "MetaBox Extension Example for the AstroFields framework",
     "keywords"    : [ "wordpress", "forms", "fields" ],
