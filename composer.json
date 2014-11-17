@@ -17,41 +17,15 @@
     },
     "minimum-stability" : "dev",
     "require"     : {
-        "php"                       : ">=5.3",
-        "composer/installers"       : "~1.0",
-        "WCM/AstroFields/Core"      : "*",
-        "WCM/AstroFields/MetaBox"   : "*",
-        "WCM/AstroFields/PostMeta"  : "*",
-        "WCM/AstroFields/Standards" : "*",
-        "WCM/AstroFields/HTML5"     : "*",
-        "WCM/AstroFields/Security"  : "*"
+        "php"                              : ">=5.3",
+        "composer/installers"              : "~1.0",
+        "wecodemore/astrofields-core"      : "*",
+        "wecodemore/astrofields-standards" : "*",
+        "wecodemore/astrofields-metabox"   : "*",
+        "wecodemore/astrofields-postmeta"  : "*",
+        "wecodemore/astrofields-security"  : "*",
+        "wecodemore/astrofields-html5"     : "*",
     },
-    "repositories": [
-        {
-            "type" : "vcs",
-            "url"  : "https://github.com/AstroFields/Core"
-        },
-        {
-            "type" : "vcs",
-            "url"  : "https://github.com/AstroFields/MetaBox"
-        },
-        {
-            "type" : "vcs",
-            "url"  : "https://github.com/AstroFields/PostMeta"
-        },
-        {
-            "type" : "vcs",
-            "url"  : "https://github.com/AstroFields/Standards"
-        },
-        {
-            "type" : "vcs",
-            "url"  : "https://github.com/AstroFields/HTML5"
-        },
-        {
-            "type" : "vcs",
-            "url"  : "https://github.com/AstroFields/Security"
-        }
-    ],
     "autoload"    : {
         "psr-4" : {
             "WCM\\AstroFields\\Examples\\MetaBox\\" : ""
