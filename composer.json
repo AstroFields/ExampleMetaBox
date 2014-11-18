@@ -24,7 +24,7 @@
         "wecodemore/astrofields-metabox"   : "*",
         "wecodemore/astrofields-postmeta"  : "*",
         "wecodemore/astrofields-security"  : "*",
-        "wecodemore/astrofields-html5"     : "*",
+        "wecodemore/astrofields-html5"     : "*"
     },
     "autoload"    : {
         "psr-4" : {
