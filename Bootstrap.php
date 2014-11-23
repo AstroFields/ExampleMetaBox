@@ -20,20 +20,13 @@ use WCM\AstroFields\Security\Commands\SanitizeString;
 use WCM\AstroFields\Security\Commands\SanitizeMail;
 
 use WCM\AstroFields\MetaBox\Commands\MetaBox as MetaBoxCmd;
-use WCM\AstroFields\MetaBox\Receivers\MetaBox as MetaBoxProvider;
-use WCM\AstroFields\MetaBox\Views\MetaBoxView;
 use WCM\AstroFields\MetaBox\Templates\Table as MetaBoxTmpl;
 
 use WCM\AstroFields\PostMeta\Commands\SaveMeta;
 use WCM\AstroFields\PostMeta\Commands\DeleteMeta;
 use WCM\AstroFields\PostMeta\Receivers\PostMetaValue;
 
-use WCM\AstroFields\Standards\Templates\InputFieldTmpl;
-use WCM\AstroFields\Standards\Templates\PasswordFieldTmpl;
-use WCM\AstroFields\Standards\Templates\RadioFieldTmpl;
 use WCM\AstroFields\Standards\Templates\SelectFieldTmpl;
-use WCM\AstroFields\Standards\Templates\CheckboxListTmpl;
-use WCM\AstroFields\Standards\Templates\CheckboxFieldTmpl;
 use WCM\AstroFields\Standards\Templates\TextareaFieldTmpl;
 use WCM\AstroFields\HTML5\Templates\EmailFieldTmpl;
 
